@@ -1,0 +1,11 @@
+.btn-play {
+	width: 70% !important;
+	margin-left:6px !important;
+}
+.btn-connect {
+	width:13%;
+	float:left;
+}
+.btn-spectate {
+	width:100% !important;
+}

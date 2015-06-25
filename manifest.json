@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts":["ext/jquery.js", "script.js"]
+   },
+   "content_scripts": [ 
+      {
+         "css": ["custom.css"],
+         "js": ["ext/jquery.js", "contentscript.js"],
+         "matches": [ "http://agar.io/" ],
+         "run_at": "document_end"
+      } 
+   ],
+   "icons": {
+      "128": "icon-128.png",
+      "195": "image.png",
+      "48": "icon-48.png"
+   },
+   "description": "A sweet mod for Agar.io by Lokio!",
+   "manifest_version": 2,
+   "name": "Lokio's Mod for Agar.io",
+   "permissions": [ "storage", "unlimitedStorage", "webRequest", "webRequestBlocking", "*://agar.io/*.js"],
+   "short_name": "Lokio's Mod",
+   "version": "2.3",
+   "web_accessible_resources": ["injectScript.js"]
+}
