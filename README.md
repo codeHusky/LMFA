@@ -8,4 +8,4 @@ A sweet mod for Agar.io
 * [http://terminalbit.com/agario/skins Skin folder (Currently 404s)]
 * And a few other images.
 
-*I've gotta set up the **/skins** folder to display as an index for easy browsing, but for now that's what we've got.*
+*I've gotta set up the __/skins__ folder to display as an index for easy browsing, but for now that's what we've got.*
