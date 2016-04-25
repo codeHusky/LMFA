@@ -20,6 +20,6 @@
    "name": "Lokio's Mod for Agar.io",
    "permissions": [ "storage", "unlimitedStorage", "webRequest", "activeTab", "webRequestBlocking", "*://agar.io/*.*", "*://agar.io/"],
    "short_name": "Lokio's Mod",
-   "version": "2.4",
-   "web_accessible_resources": ["injectScript.js"]
+   "version": "3.0",
+   "web_accessible_resources": ["lokio_agario.js","lokio_env.js","lokio_i18n.js","lokio_main_out.js","mods.js","loader.js"]
 }
