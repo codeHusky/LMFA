@@ -6,7 +6,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         	console.log("Blocked: " + details.url)
             //return {redirectUrl: "https://agar.io/js/jquery.js" };
         }else if(details.url.toString() == "http://agar.io/"){
-            return {redirectUrl:"javascript:"};
+            return {redirectUrl:"https://agar.io"};
             console.log("close")
         }
     },
